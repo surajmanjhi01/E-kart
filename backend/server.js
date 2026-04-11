@@ -22,6 +22,6 @@ app.use('/api/v1/user', userRoute);
 // ✅ Connect DB and start server
 connectDB().then(() => {
     app.listen(PORT, () => {
-        console.log(`Server is running at port: ${PORT}`);
+        console.log(`Server is   running at port: ${PORT}`);
     });
 });
